@@ -52,11 +52,6 @@ def both_ends(s):
 # where all instances of stra have been replaced by strb.
 
 def fix_start(s):
-    stra = s[0]
-    strb = s[1:]
-    ReplaceAll = strb.replace(stra, '*')
-
-    return stra+ReplaceAll
     return
 
 
